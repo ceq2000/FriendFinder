@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>FriendFinder</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Link to Font Awesome CSS CDN for Glpyhicons -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- App CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="shadow card">
+            <div class="card-header">
+                <h1>Friend Finder</h1>
+            </div>
+            <div class="card-body">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <h2>
+                        Survey Questions
+                    </h2>
+                    <hr>
+                    <h3>About You</h3>
+                    <h5>Name (Required)</h5>
+                    <input type="text" name="" id="name" class="form-control" required>
+                    <br>
+                    <h5>Link to Photo Image (Required)</h5>
+                    <input type="text" name="" id="photo" class="form-control" required>
+                    <hr>
+                    <h3>Question 1</h3>
+                    <h4>Being thrifty is a desirable quality</h4>
+                    <select data-placeholder="" class="chzn-select" id="question1">
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                    <hr>
+                    <h3>Question 2</h3>
+                    <h4>I like to be in nature and the outdoors as much as possible.</h4>
+                    <select data-placeholder="" class="chzn-select" id="question2">
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                    <hr>
+                    <h3>Question 3</h3>
+                    <h4>Work life balance is an important consideration</h4>
+                    <select data-placeholder="" class="chzn-select" id="question3">
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                    <hr>
+                    <h3>Question 4</h3>
+                    <h4>I treat my body as a temple</h4>
+                    <select data-placeholder="" class="chzn-select" id="question4">
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                    <hr>
+                    <h3>Question 5</h3>
+                    <h4>Learning is a lifelong pursuit</h4>
+                    <select data-placeholder="" class="chzn-select" id="question5">
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                    <hr>
+                    <h3>Question 6</h3>
+                    <h4>Spirituality is a significant part of my life</h4>
+                    <select data-placeholder="" class="chzn-select" id="question6">
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                    <hr>
+                    <h3>Question 7</h3>
+                    <h4>Some restrictions should be made to gun laws.</h4>
+                    <select data-placeholder="" class="chzn-select" id="question7">
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                    <hr>
+                    <h3>Question 8</h3>
+                    <h4>Artificial intelligence is dangerous.</h4>
+                    <select data-placeholder="" class="chzn-select" id="question8">
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                    <hr>
+                    <h3>Question 9</h3>
+                    <h4>I would consider dating someone much younger or older than myself.</h4>
+                    <select data-placeholder="" class="chzn-select" id="question9">
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                    <hr>
+                    <h3>Question 10</h3>
+                    <h4>I am highly intuitive</h4>
+                    <select data-placeholder="" class="chzn-select" id="question10">
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                    <br>
+                    <br>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" id="#submit"><i
+                            class="fa fa-check-circle" aria-hidden="true"></i> Submit
+                    </button>
+                    <br>
+                    <br>
+                    <footer class="footer text-center">
+                        <div class="container">
+                            <p><a href="https://friend-finder-fsf.herokuapp.com/api/friends">API Friends
+                                    List</a> |
+                                <a href="https://github.com/ceq2000/FriendFinder">GitHub Repo</a>
+                                <br> &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script> Carlos Quinones</p>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div id="resultsModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h2 class="modal-title"><strong>Optimal Match</strong></h2>
+                        </div>
+                        <div class="modal-body">
+                            <h2 id="matchName"></h2>
+                            <img id="matchImg" src="https://via.placeholder.com/400x400"
+                                alt="Placeholder image in case user pic doesn't show">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Link in jQuery -->
+            <script src="https://code.jquery.com/jquery.js">
+            </script>
+
+            <script>
+
+                // Global Declaration scoping fix
+                let formValidated;
+
+                $(document).ready(function () {
+
+                    // Event Listener for FORM Submission
+                    $('#submitButton').on('click', function () {
+
+                        // Check if all the user fields are completed
+                        inputValidation(function () {
+
+                            // Proceed with AJAX call if all questions are answered
+                            if (formValidated) {
+                                processQuestions();
+                            }
+                            else {
+                                alert('>>> All fields must be entered <<<');
+                            }
+
+                        });
+
+                    });
+
+                });
+
+                //User input validation
+                function inputValidation(callback) {
+
+                    //Iterate through "chzn-select" class
+                    let selectionMade;
+                    $('.chzn-select').each(function () {
+                        if ($(this).val() == "") {
+                            selectionMade = false;
+                        }
+                    })
+
+                        // This counters default async behavior of $.each()
+                        .promise().done(function () {
+
+                            // Check for incomplete questions
+                            if (selectionMade == false) {
+                                formValidated = false;
+                            }
+
+
+                            else if ($('#formName').val().trim() == "") {
+                                formValidated = false;
+                            }
+
+
+                            else if ($('#formImage').val().trim() == "") {
+                                formValidated = false;
+                            }
+
+                            //Else, all fields completed
+                            else {
+                                formValidated = true;
+                            }
+
+                            // Callback to counter async behavior of $.each
+                            callback();
+
+                        });
+                }
+
+
+                function processQuestions() {
+
+                    //New friend object
+                    let newFriend = {
+                        name: $('#formName').val().trim(),
+                        photo: $('#formImage').val().trim(),
+                        scores: []
+                    };
+
+                    // Loop through questions for scores
+                    let scoresArray = [];
+                    $('.chzn-select').each(function () {
+                        scoresArray.push(parseInt($(this).val())); // Parse Input Value as integer
+                    })
+                        //Counters default async behavior of $.each()
+                        .promise().done(function () {
+
+                            // Push score array to new friend object
+                            newFriend.scores = scoresArray;
+
+                            // POST newFriend to the friends.js file and return optimal match
+                            let currentURL = window.location.origin;
+                            $.post(currentURL + "/api/friends", newFriend, function (data) {
+
+                                // Add optimal match attributes to Modal
+                                $('#matchName').text(data.name);
+                                $('#matchImg').attr('src', data.photo);
+
+                                // Show optimal match 
+                                $("#resultsModal").modal('toggle');
+
+                            });
+
+                        });
+
+                }
+
+                //Form validation
+                function validateForm() {
+
+                    var isValid = true;
+                    $('.form-control').each(function () {
+
+                        if ($(this).val() === '') {
+
+                            isValid = false;
+                        }
+                    });
+                    return isValid;
+                }
+
+                //if all required fields have inputs
+                if (validateForm()) {
+
+                    //Create OBJECT for user data
+                    var userData = {
+
+                        name: $('#name').value(),
+                        photo: $('#photo').value(),
+                        scores: [
+                            $('#question1').value(),
+                            $('#question2').value(),
+                            $('#question3').value(),
+                            $('#question4').value(),
+                            $('#question5').value(),
+                            $('#question6').value(),
+                            $('#question7').value(),
+                            $('#question8').value(),
+                            $('#question9').value(),
+                            $('#question10').value()
+                        ]
+                    };
+
+                    //Grab website URL
+                    var currentURL = window.location.origin;
+
+                    //AJAX data post to friends API
+                    $.post(currentURL + '/api/friends', userData, function (data) {
+
+                        $('#resultsModal').modal('toggle');
+                        alert('working');
+                    });
+                }
+
+            </script>
+
+</body>
+
+</html>
